@@ -2,9 +2,10 @@
   <div id="app">
     <app-layout>
       <div class="text-red-500">exemple app</div>
+      <router-view/>
     </app-layout>
     
-    <router-view/>
+    
     
       
   </div>

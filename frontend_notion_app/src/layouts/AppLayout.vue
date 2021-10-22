@@ -1,5 +1,5 @@
 <template>
-  <component :is="layout">
+  <component class="max-w-screen-xl font-sans mx-auto" :is="layout">
     <slot />
   </component>
 </template>
