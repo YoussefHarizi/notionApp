@@ -11,9 +11,7 @@ const routes = [
     path: "/",
     name: "Welcome",
     component: Welcome,
-    meta:{
-      layout:"DefaultLayout",
-    }
+   
   },
   {
     path: "/dashboard",

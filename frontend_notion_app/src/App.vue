@@ -1,9 +1,12 @@
 <template>
   <div id="app">
     <app-layout>
-      <div id="nav"><router-link to="/">Home</router-link> |</div>
-      <router-view />
+      <div class="text-red-500">exemple app</div>
     </app-layout>
+    
+    <router-view/>
+    
+      
   </div>
 </template>
 <script>
@@ -14,6 +17,7 @@ export default {
 </script>
 
 <style>
+@import "assets/tailwind.css";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
